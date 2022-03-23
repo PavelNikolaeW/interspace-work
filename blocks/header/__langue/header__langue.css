@@ -1,0 +1,11 @@
+.header__langue {
+    z-index: 50;
+}
+
+.header__langue>.dropdown__btn {
+    border: 1px solid var(--custom-red);
+}
+
+.header__langue>.dropdown__list {
+    border: 1px solid var(--custom-red);
+}

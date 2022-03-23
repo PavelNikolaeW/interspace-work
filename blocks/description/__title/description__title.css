@@ -1,0 +1,11 @@
+.description__title {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+@media (max-width: 767px) {
+    .description__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,7 @@
+.popup__close {
+    display: flex;
+    align-items: center;
+    height: auto;
+    border: 1px solid var(--custom-red);
+    border-radius: 7px;
+}

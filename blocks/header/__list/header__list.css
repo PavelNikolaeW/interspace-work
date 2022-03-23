@@ -1,0 +1,14 @@
+.header__list {
+    display: flex;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.header__list li {
+    list-style: none;
+}
+
+.header__list li:not(:last-child) {
+    margin: 0 20px 0 0px;
+}

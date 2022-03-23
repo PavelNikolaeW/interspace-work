@@ -1,0 +1,10 @@
+.city__link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.city__link:hover {
+    opacity: .5;
+    transition: .2s;
+}

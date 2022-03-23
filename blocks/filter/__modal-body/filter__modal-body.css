@@ -1,0 +1,9 @@
+.filter__modal-body {
+    padding: 15px 30px 15px 30px;
+}
+
+@media (max-width: 768px) {
+    .filter__modal-body {
+        padding: 15px 15px 15px 15px;
+    }
+}

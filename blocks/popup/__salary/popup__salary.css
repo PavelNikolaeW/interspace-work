@@ -1,0 +1,4 @@
+.popup__salary {
+    color: var(--custom-red);
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.cards {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+}

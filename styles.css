@@ -1,0 +1,249 @@
+strong {
+    font-weight: bold;
+}
+
+div {
+    /* border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+.my-card {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.btn,
+.btn-group,
+.dropdown-menu {
+    width: 100%;
+}
+
+.my-modal__head {
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.d-block {
+    min-height: 100%;
+    object-fit: contain;
+}
+
+.my-dropdown-menu>li {
+    text-align: center;
+}
+
+.card__sections {
+    display: flex;
+}
+
+.card__slider {
+    width: 50%;
+}
+
+.card__remain {
+    width: 50%;
+}
+
+.my_hedden {
+    display: hidden;
+}
+
+@media (max-width: 1023px) {
+    .card__sections {
+        flex-direction: column;
+    }
+    .card__slider {
+        width: 100%;
+    }
+    .card__remain {
+        order: 2;
+        width: 100%;
+    }
+    .my_hedden {
+        display: none;
+    }
+}
+
+.list-group>.list-group-item:not(:last-child) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-item {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-item>input {
+    width: 50%;
+}
+
+.my-item>label {
+    width: 50%;
+}
+
+.my-item>select {
+    width: 50%;
+}
+
+.my-item>textarea {
+    width: 50%;
+    min-height: 100px;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icons__item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icon__img {
+    width: 24px;
+}
+
+
+/* slider */
+
+.carousel-inner {
+    height: 407px;
+}
+
+@media (max-width: 426px) {
+    .carousel-inner {
+        height: 220px;
+    }
+}
+
+@media (max-width: 321px) {
+    .carousel-inner {
+        height: 180px;
+    }
+}
+
+
+/* slider */
+
+.popup__column {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 769px) {
+    .popup__column {
+        flex-direction: column;
+    }
+    .popup__job {
+        width: 68%;
+    }
+    .employer {
+        width: 28%;
+    }
+}
+
+.popup__job {
+    width: 100%;
+}
+
+.employer {
+    width: 100%;
+}
+
+.requirements {}
+
+.requirements__title {}
+
+.requirements__list {}
+
+.requirements__item {}
+
+.employer__head {}
+
+.employer__title {}
+
+.employer__img {}
+
+.employer__licence {}
+
+.employer__body {}
+
+.employer__item {}
+
+.employer__link {}
+
+.employer__face {}
+
+
+/* ADMIN */
+
+.admin {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add {
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+@media (min-width: 767px) {
+    .my-textarea {
+        width: 300px;
+    }
+}
+
+.my-textarea {
+    width: 140px;
+}
+
+@media (min-width: 767px) {
+    .my-textarea {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .my-textarea {
+        width: 600px;
+    }
+}
+
+.header__nav {
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 424px) {
+    /* .header__nav button {
+        content: "kek";
+        width: 80%;
+    }
+    .header__nav form {
+        width: 80%;
+    } */
+}

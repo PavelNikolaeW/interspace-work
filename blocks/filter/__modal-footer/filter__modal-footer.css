@@ -1,0 +1,10 @@
+.filter__modal-footer {
+    padding: 15px 30px 15px 30px;
+    border-top: 2px solid var(--custom-red);
+}
+
+@media (max-width: 768px) {
+    .filter__modal-footer {
+        padding: 15px 15px 15px 15px;
+    }
+}

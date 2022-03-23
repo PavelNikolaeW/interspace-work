@@ -1,0 +1,29 @@
+.card-modal__content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    height: none;
+}
+
+.modal-content {
+    height: auto;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.modal-fullscreen-md-down .modal-content {
+    height: auto;
+}
+
+
+/* @media (min-width: 768px) {
+    .modal-content {
+        height: auto;
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+} */

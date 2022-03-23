@@ -1,0 +1,19 @@
+.__container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+@media (min-width: 480px) {
+    ._container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1200px) {
+    ._container {
+        width: 1100px;
+    }
+}

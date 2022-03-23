@@ -1,0 +1,11 @@
+.description__link {
+    margin-left: 5px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid var(--white);
+    border-radius: 6px;
+}
+
+.description__link:hover {
+    font-weight: 500;
+    box-shadow: 0px 4px 8px var(--white);
+}

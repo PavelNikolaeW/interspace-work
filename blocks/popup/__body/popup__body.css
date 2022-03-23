@@ -1,0 +1,7 @@
+.popup__body {
+    min-height: 100% - 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 50px 10px;
+}

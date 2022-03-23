@@ -1,0 +1,12 @@
+.filter__modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
+    border-bottom: 2px solid var(--custom-red);
+}
+
+@media (max-width: 768px) {
+    .filter__modal-header {
+        padding: 15px 15px 15px 15px;
+    }
+}

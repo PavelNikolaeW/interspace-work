@@ -1,0 +1,19 @@
+.card-modal__close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--black);
+    text-shadow: 0 1px 0 var(--white);
+    opacity: .5;
+    text-decoration: none;
+}
+
+.card-modal__close:focus,
+.card-modal__close:hover {
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}

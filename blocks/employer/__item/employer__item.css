@@ -1,0 +1,11 @@
+.employer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.employer__item>:first-child {
+    font-size: 20px;
+}
+
+.employer__item>:last-child {}

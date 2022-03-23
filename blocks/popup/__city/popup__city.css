@@ -1,0 +1,23 @@
+.popup__city {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.popup__city-icon {
+    width: 24px;
+}
+
+.popup__city-flag {
+    width: 24px;
+    height: 24px;
+}
+
+.popup__city-link {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .popup__city {
+        margin-bottom: 15px;
+    }
+}

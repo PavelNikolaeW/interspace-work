@@ -1,0 +1,15 @@
+.employer {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--custom-white);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width:768px) {
+    .employer {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+.logo {}
+
+.logo:hover {
+    flex: 0 0 160px;
+}
