@@ -1,7 +1,6 @@
 <?php
 $server_name = "mysql:host=31.31.196.158;charset=utf8mb4";
 $user_name = 'u1573258_user';
-$password = 'tfv-s58-usN-5qX';
 
 $pdo = new PDO($server_name, $user_name, $password);
 // установка режима вывода ошибок
